@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="display">
+    <div class="display__inner">
+      <p class="display__text">Базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности
+        картины в
+        целом, однако конкретные выводы, разумеется, своевременно верифицированы. Также как социально-экономическое
+        развитие способствует повышению качества системы массового участия.
+        <br><br>
+        Принимая во внимание показатели успешности, высококачественный прототип будущего проекта в значительной степени
+        обусловливает важность новых принципов формирования материально-технической и кадровой базы.
+        Базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в
+        целом, однако конкретные выводы, разумеется, своевременно верифицированы. Также как социально-экономическое
+        развитие способствует повышению качества системы массового участия.
+        <br><br>
+        Принимая во внимание показатели успешности, высококачественный прототип будущего проекта в значительной степени
+        обусловливает важность новых принципов формирования материально-технической и кадровой базы.
+        Базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в
+        целом, однако конкретные выводы, разумеется, своевременно верифицированы. Также как социально-экономическое
+        развитие способствует повышению качества системы массового участия.
+        <br><br>
+        Принимая во внимание показатели успешности, высококачественный прототип будущего проекта в значительной степени
+        обусловливает важность новых принципов формирования материально-технической и кадровой базы.
+      </p>
+    </div>
+  </div>
+</body>
+
+<style>
+  /* smoker's normalize xd */
+
+  body {
+    font-size: calc(14px + (28 - 14)*(100vw - 320px)/(1920-320));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* display */
+
+  .display ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .display ::-webkit-scrollbar-track {
+    background-color: #484848;
+    border-radius: 10px;
+  }
+
+  .display ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+
+  .display {
+    border: 0.25rem solid #ffd7c5;
+    box-sizing: border-box;
+    width: 60%;
+    height: 70%;
+    min-width: 280px;
+    border-radius: 6rem;
+    background: linear-gradient(29.97deg, #000000 -12.89%, #363636 91.62%);
+    color: #ffffff;
+    padding-top: 140px;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    position: relative;
+  }
+
+  .display:after {
+    content: '';
+    position: absolute;
+    top: -0.25rem;
+    left: 50%;
+    margin-left: -35%;
+    width: 70%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    border: inherit;
+    border-top: none;
+    box-sizing: border-box;
+  }
+
+  .display__inner {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  @media all and (max-width: 920px) {
+    .display {
+      height: 80%;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      border-radius: 4rem;
+    }
+
+    .display:after {
+      display: none;
+    }
+  }
+</style>
+
+</html>
